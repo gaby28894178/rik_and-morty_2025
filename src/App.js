@@ -71,7 +71,7 @@ const App = () => {
     <div className="min-h-screen flex flex-col bg-gray-100">
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-blue-600">Rick & Morty</h1>
+          <h1 className="text-2xl font-bold text-blue-600"><a href='/'>Rick& Morty </a></h1>
           <div className="flex items-center space-x-4">
             {currentView === 'characters' && <Buscador onSearch={handleSearch} />}
             <MenuHamburguesa onNavigate={setCurrentView} />
